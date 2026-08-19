@@ -695,7 +695,7 @@
     .info-modal__close:hover{color:var(--blue)}
 
     /* BOOKING MODAL (AGENDA TU EVALUACIÓN) */
-    .booking-modal__panel{max-width:940px;max-height:90vh;overflow-y:auto;margin:4vh auto 0;padding:0}
+    .booking-modal .booking-modal__panel{max-width:940px;max-height:90vh;overflow-y:auto;margin:4vh auto 0;padding:0}
     .booking-layout{display:grid;grid-template-columns:280px 1fr}
     .booking-steps{
       background:#f8fafc;border-right:1px solid var(--line);padding:34px 26px;border-radius:18px 0 0 18px;
@@ -766,7 +766,7 @@
     .booking-step[data-step="4"] p{color:var(--muted);font-size:14px;line-height:1.6;margin-bottom:18px}
     .booking-step[data-step="4"] .cta{margin-bottom:10px}
     @media(max-width:850px){
-      .booking-modal__panel{margin:2vh 12px 0;max-height:94vh}
+      .booking-modal .booking-modal__panel{margin:2vh 12px 0;max-height:94vh}
       .booking-layout{grid-template-columns:1fr}
       .booking-steps{border-radius:18px 18px 0 0;border-right:0;border-bottom:1px solid var(--line);padding:26px 50px 26px 22px}
       .booking-steps__list{grid-auto-flow:column;gap:14px;overflow-x:auto}
@@ -776,14 +776,14 @@
     }
 
     /* CONTACT MODAL (RESERVA TU CITA) */
-    .contact-modal__panel{
+    .contact-modal .contact-modal__panel{
       max-width:760px;max-height:88vh;overflow-y:auto;margin:5vh auto 0;padding:38px 40px;
     }
     .contact-modal .contact-grid{margin:0}
     .contact-grid--form-only{display:block}
     .contact-grid--form-only .contact-form{box-shadow:none;border:0;padding:0}
     @media(max-width:850px){
-      .contact-modal__panel{margin:3vh 16px 0;padding:26px 50px 26px 20px;max-height:92vh}
+      .contact-modal .contact-modal__panel{margin:0.6vh 16px 0;padding:22px 50px 22px 20px;max-height:97vh}
       .contact-modal .section-title:before,.contact-modal .section-title:after{display:none}
       .contact-modal .section-title h2{font-size:14px}
     }
