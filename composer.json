@@ -1,0 +1,8 @@
+{
+  "name": "fisiotraining/web",
+  "description": "Sitio web premium para Fisiotraining.",
+  "type": "project",
+  "require": {
+    "phpmailer/phpmailer": "^6.9"
+  }
+}
